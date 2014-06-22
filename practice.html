@@ -14,10 +14,17 @@ h1 {
 	text-align: center;
 }
 
-p {
+#para1 {
 	font-family: "Times New Roman";
 	font-size: 20px;
 	color: yellow;
+}
+
+#comment {
+	color: yellow;
+	font-size: 18px;
+	background-color: black;
+	border: 1px solid white;
 }
 
 a {
@@ -35,10 +42,6 @@ table,th,td {
 	background-color: yellow;
 	text-align: center;
 	
-#idid {
-	text-align: left;
-	color: yellow;
-	background-color: lightblue;
 }
 </style>
 </head>
@@ -51,9 +54,9 @@ Password: <input type="password" name="user">
 <input type="submit" value="Submit">
 </form>
 
-<p>This is development site, contact cepark@umich.edu for information</p>
+<p id="para1">This is development site, contact cepark@umich.edu for information</p>
 
-<p>List of Protocols</p>
+<p id="para1">Recently Used Protocols (will vary with account)</p>
 
 <table>
 <tr>
@@ -64,7 +67,38 @@ Password: <input type="password" name="user">
 	<td>MINIPREP: </td>
 	<td><a href="linkToMINIPREPWebPage.edu">Link to webpage</a></td>
 </tr>
+<tr>
+	<td>Strawberry DNA Extraction: </td>
+	<td><a href="linkToStrawberryWebPage.edu">Link to webpage</a></td>
+</tr>
 </table>
+
+<p id="para1">Complete List of Protocols</p>
+
+<table>
+<tr>
+	<td>Name</td>
+	<td>Link</td>
+</tr>
+<tr>
+	<td>MINIPREP: </td>
+	<td><a href="linkToMINIPREPWebPage.edu">Link to webpage</a></td>
+</tr>
+<tr>
+	<td>Strawberry DNA Extraction: </td>
+	<td><a href="linkToStrawberryWebPage.edu">Link to webpage</a></td>
+</tr>
+</table>
+
+<p id="comment">
+	Features to include:</br>
+	Function: Add Protocol</br>
+	Function: Edit or comment on existing protocol</br>
+	Separate Tabs ie: [Select Protocol][Add Protocol][Profile Information][Other?]</br>
+	Dynamic heading that verifies profile ie: "Hi, cepark; Logout"</br>
+	Currently the links above are empty, we need a server to store webpages on
+</p>
+
 
 <body>
 </html>
