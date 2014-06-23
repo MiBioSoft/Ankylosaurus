@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home Page</title>
+</head>
+
+<body>
+<table width="100%" border="1">
+  <tr>
+    <th scope="col"><a href="index.html">Home</a></th>
+    <th scope="col">Protocols</th>
+    <th scope="col">Search</th>
+    <th scope="col">My Account</th>
+  </tr>
+  <tr>
+    <th colspan="4" scope="row">^_^ Welcome! ^_^</th>
+  </tr>
+  <tr>
+    <th colspan="4" scope="row"><div align="left">site overview/outline/index</div></th>
+  </tr>
+  <tr>
+    <th colspan="4" scope="row">Contact: Michigan iGEM Software Team (igemsoftware-requests@umich.edu)</th>
+  </tr>
+  <tr>
+    <th colspan="4" scope="row"><div align="left"></div></th>
+  </tr>
+</table>
+</body>
+</html>
