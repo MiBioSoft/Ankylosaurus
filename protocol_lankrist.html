@@ -9,39 +9,40 @@
   <!-- link to style shee-->
 </head>
 
-<body>
+<body><!--here is where the visible part starts-->
 <div class="page">
 
 <div class="header">
-  <h1>Protocol Database and Calculator</h1>
-  <ul>
+  <h1>Protocol Database and Calculator</h1><!--title--->
+  <ul><!--this is a list, it is the navigation bar-->
     <li><a href="user_lankrist.html">User</a></li>
     <li><a href="#">Dashboard</a></li>
     <li><a href="protocol_lankrist.html">Protocols</a></li>
     <li><a href="#">Create Protocols</a></li> 
   </ul>
-  <form action="http://www.example.com/search.php">
-    <input type="text" name="search" placeholder="Search..."/>
-    <input type="submit" value="Search" />
+  <form action="http://www.example.com/search.php"><!--this is for the search bar-->
+    <input type="text" name="search" placeholder="Search..."/><!--the search box-->
+    <input type="submit" value="Search" /><!--the search button-->
   </form>
 </div>
 
-<div class="content">
-<div class="left">
+<div class="content"><!--the content is but in a large container, so it would be easier if we want to format the page-->
+<div class="left"><!--the conent is divided into two parts-->
   <div class="left-content">
+  <!--the left part will be directly editable for the user, while the right part would usually display information and is not directly editable-->
     <div id= "title">ID#-Title of protocol 
       <button type="button" onclick="alert('This will become the edit window')">edit</button>
     </div> 
-    <p>Desctiption: </p>
+    <p>Desctiption: </p><!--will create an edit box-->
     <p>Calcultaions: </p>
   </div>
 </div>
  
 
 
-<div class="right">
+<div class="right"><!--this side of the content is not directly modified by the user-->
   <h1>Dates</h1>
-  <ol>
+  <ol><!--use of lists-->
     <li>Created on:</li>
     <li>Last edited:</li>
   </ol>
