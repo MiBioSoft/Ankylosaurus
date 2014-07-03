@@ -1,3 +1,4 @@
+/*Youtube tutorials and w3schools are great resources*/
 /body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -6,12 +7,14 @@
 	background-position: left top;
 	margin: 0px;
 }
+/*default format*/
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
 	margin: 0px;
 }
 
 
+/*background colors, would be helpful to add color to all th backgrounds to see how they are layout on the page*/
 .header{
     background:#B9D3E3;
 }
@@ -27,11 +30,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 
 
 
-
+/*size of header*/
 .header {
     height: 100px;
     padding-bottom: 3px;
 }
+
+/*format of title*/
 .header h1 {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 28px;
@@ -42,6 +47,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+/*format of navigation bar*/
 .header ul {
     margin-left: 5px;
     height: 27px;
@@ -71,6 +78,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding-left: 15px;
 }
 
+/*hover*/
 .header ul li a:hover {
 	color: #FFFFFF;
 	background-color: #C0C0C0;
@@ -81,6 +89,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	clear: left;
 }
 
+/*search box*/
 .header form{
     line-height: 27px;
     float: right;
@@ -91,6 +100,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
     	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+
+/*format for fluid layout, I am still working on this, so whaterve you do try not to change the margins*/
 .left {
     width: 100%; 
     clear: left;
@@ -131,7 +142,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 
 
 
-
+/*footer formating, very similar to the heading*/
 .footer {
     clear:both;
     background-position: left top;
