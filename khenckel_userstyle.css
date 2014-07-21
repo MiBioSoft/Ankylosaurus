@@ -110,12 +110,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 
 .left-content {
     font-size: 16px;
-    margin-right: 0px 800px;
+    margin-right: 0px 500px;
 }
 
 
 .right {
-    font-size:12px;
+    font-size:16px;
     float:right;
     width: 300px;
     margin: 5px;
