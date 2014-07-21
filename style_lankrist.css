@@ -155,28 +155,3 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	float: left;
 	padding-top: 10px;
 }
-.footer-right {
-	float: right;
-	padding-top: 25px;
-}
-.footer-right ul {
-	list-style-type: none;
-	background: #F1F6FC;
-}
-.footer-right ul li {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #000000;
-	display: inline;
-}
-.footer-right ul li a {
-	color: #000000;
-	text-decoration: none;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-.footer-right ul li a:hover {
-	color: #FFFFFF;
-	background-color: #C0C0C0;
-}
