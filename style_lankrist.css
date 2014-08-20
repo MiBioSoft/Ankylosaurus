@@ -125,22 +125,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
     padding-left: 10px;
 }
 
-.right h1{
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.right ol{
-    font-size:12px;
-    list-style-type: none;
-}
-
-
-
-
-
-
-
 
 /*footer formating, very similar to the heading*/
 .footer {
