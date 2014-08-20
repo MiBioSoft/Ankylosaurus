@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 
 /*format for fluid layout, I am still working on this, so whaterve you do try not to change the margins*/
 .left {
-    width: 50%; 
+    width: 100%; 
     clear: left;
     float: left;
     margin: 5px 0px -800px 0px;
