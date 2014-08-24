@@ -1,0 +1,43 @@
+/body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-position: left top;
+	margin: 0px;
+}
+
+.mainheader {
+    background:#B9D3E3;
+    height: 100px;
+    padding-bottom: 3px;
+}
+    
+.mainheader ul {
+    margin-left: 5px;
+    height: 27px;
+    float: left;
+    margin-top: 18px;
+    list-style-type: none;
+    clear: left;
+    background: #F1F6FC;
+}
+.mainheader ul li {
+	height: 27px;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.mainheader ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	height: 27px;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
