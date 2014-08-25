@@ -1,33 +1,47 @@
-/body {
+body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #000000;
-	background-color: #FFFFFF;
-	background-position: left top;
-	margin: 0px;
+	font-size: 100%;
+	color: #F5F5F5;
+	line-height: 1.5;
+	text-align: left;
+	
 }
 
-.mainheader {
-    background:#B9D3E3;
-    height: 100px;
-    padding-bottom: 3px;
+.body (
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+)
+
+.mainheader img {
+	width: auto;
+	height: auto;
+	margin: 5% 0;
+}
+
+.mainheader nav {
+	background-color: #F1F6FC;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
     
-.mainheader ul {
-    margin-left: 5px;
+.mainheader nav ul {
+    margin: 0 auto;
     height: 27px;
     float: left;
-    margin-top: 18px;
     list-style-type: none;
-    clear: left;
-    background: #F1F6FC;
+    background: #B9D3E3;
 }
+
 .mainheader ul li {
 	height: 27px;
 	float: left;
 	padding-right: 15px;
 	padding-left: 15px;
 }
+
 .mainheader ul li a {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -41,3 +55,4 @@
 	padding-right: 15px;
 	padding-left: 15px;
 }
+
