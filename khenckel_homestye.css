@@ -1,17 +1,17 @@
 body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 100%;
-	color: #F5F5F5;
+	background-color: #F5F5F5;
 	line-height: 1.5;
 	text-align: left;
 	
 }
 
-.body (
+.body {
 	margin: 0 auto;
 	width: 80%;
 	clear: both;
-)
+}
 
 .mainheader img {
 	width: auto;
@@ -19,9 +19,14 @@ body {
 	margin: 5% 0;
 }
 
+.mainheader h2 {
+    text-align: center;
+    font: Arial;
+}
+
 .mainheader nav {
-	background-color: #F1F6FC;
-	height: 40px;
+	background-color: #B9D3E3;
+	height: 35px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -29,30 +34,33 @@ body {
     
 .mainheader nav ul {
     margin: 0 auto;
-    height: 27px;
+    width: 90%;
     float: left;
     list-style-type: none;
     background: #B9D3E3;
 }
 
 .mainheader ul li {
-	height: 27px;
 	float: left;
-	padding-right: 15px;
-	padding-left: 15px;
+    margin: 0 auto;
 }
 
 .mainheader ul li a {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 27px;
+	font-size: 87%;
+	line-height: 35px;
 	text-transform: uppercase;
 	color: #000000;
 	text-decoration: none;
-	display: block;
-	height: 27px;
 	float: left;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 35px;
 }
 
+.mainheader nav a:link {
+    background:
+}
+
+.MainContent GeneralContent {
+    background: #FFFAFA;
+    float: left;
+}
